@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+        font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(91, 91, 176),rgb(236, 63, 221));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+     section{
+         background: linear-gradient(rgb(157, 59, 123),rgb(54, 54, 140));
+         padding: 20px;
+         border-radius: 10px;
+         height: 550px;
+         width: 350px;
+         margin-right: 450px;
+         display:inline;
+         flex-direction: row;
+     }
+
+ div{
+     border: 10px black;
+     border-radius: 15px;
+}
+    label{
+        font-size: 20px;
+    color: #0c0303;
+    }
+
+    input{
+         width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #eeeaff;
+    outline: none;
+    }
+    input:focus {
+    border: 1px solid #6655aa;
+}
+
+button {
+    background: linear-gradient(90deg, #df5fc1, #6655e8);
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button,a:hover {
+    transform: scale(1.05);
+}
+@media screen and (max-width: 768px) {
+
+    body {
+        align-items: flex-start;
+        padding-top: 30px;
+    }
+
+    .abc {
+        width: 90%;
+        height: auto;
+        padding: 50px 30px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .abc h1 {
+        font-size: 30px;
+    }
+
+    .def {
+        width: 90%;
+        height: auto;
+        padding: 50px 30px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+
+        flex-direction: row;
+    }
+    section{
+     display:inline;
+     flex-direction: column;
+     margin-left: 350px;
+     height: auto;
+}
+
+}
+</style>
+<body>
+    <section>
+<div>
+    <center>
+    <form action="morden1.html">
+
+       
+        <label for="">Email</label>
+        <input type="text" name="email" id=""    placeholder="enter your email"   required><br>
+        <br>
+        <label for="">Password</label>
+        <input type="text" name="" id=""    placeholder="enter your password"     required><br>
+        <br>
+         <lable>if u don't have any account, please Sign Up</lable><br><br>
+       
+        <button type="submit"> <a href="http://google.com">submit</a> 
+        </button><br><br>
+          <a href="morden.html">sign up</a> 
+      
+    </center>
+    
+</div>
+</section>
+</body>
+</html>
+

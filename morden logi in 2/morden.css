@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(91, 91, 176),rgb(236, 63, 221));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abc {
+    width: 25%;
+    height: 550px;
+    background: linear-gradient(135deg, #6658e8, #df5fc1);
+    color: white;
+    padding: 180px 50px;
+    border-radius: 10px 0 0 10px;
+}
+
+.abc h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.def {
+    width: 35%;
+    height: 550px;
+    background-color:rgb(201, 97, 250);
+    padding: 70px 40px;
+    border-radius: 0 10px 10px 0;
+}
+
+.def h2 {
+    color: #0d0d0e;
+    margin-bottom: 0px;
+    gap: 5px;
+}
+
+.def label {
+    font-size: 15px;
+    color: #0b0202;
+}
+
+.def input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #eeeaff;
+    outline: none;
+}
+
+.def input:focus {
+    border: 1px solid #6655aa;
+}
+
+.def button {
+    background: linear-gradient(90deg, #df5fc1, #6655e8);
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.def button:hover {
+    transform: scale(1.05);
+}
+
+.def a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        align-items: flex-start;
+        padding-top: 30px;
+        display: flex;
+    }
+
+    .abc {
+        width: 90%;
+        height: auto;
+        padding: 50px 30px;
+        border-radius: 10px 10px 0 0;
+    }
+
+     .abc h1 {
+        font-size: 30px;
+        margin-bottom:50px ;
+    }
+
+    .def {
+        width: 90%;
+        height: auto;
+        padding: 50px 30px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        flex-direction:column;
+    }
+
+    section{
+    display: flex;
+    flex-direction: column;
+     margin-left: 40px;
+     height: auto;
+}
+
+}
